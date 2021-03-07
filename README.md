@@ -1,4 +1,10 @@
-# hometeach
-# a.	Iris_data 總共有四項特徵＆三組類別：
-# 特徵：Sepal_length, sepal_width, petal_length & petal_width
-# 類別：setosa, versicolor & virginica
+#  hometeach
+ `Iris_data> 總共有四項特徵＆三組類別`
+## `特徵`：Sepal_length 萼片長度, sepal_width 萼片寬度, petal_length 花瓣長度 & petal_width 花瓣寬度
+## `類別`：
+     1.Setosa 
+     2.Versicolor  
+     3.Virginica
+
+## 1.) 透過sql語法抓取三個品種各自的萼片長度＆寬度，發現彼此之間差異不大，判斷並不是可以用作區別種類的特徵
+## 2.) 同樣的操作，品種間的花瓣長＆寬＿在群體間的差距較為明顯，舉例來說，品種間的花瓣“平均長度”差到將近3倍，且彼此長度的上下界並不重合，在這組資料中，是一個準確率相當高的判斷特徵。
