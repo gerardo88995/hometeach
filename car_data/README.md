@@ -14,6 +14,10 @@
 * Vgood
 
 ## `Insights` :
- 1. The `length & width of the sepals` of the three species were captured through sql query, and the differences among the species are not obvious. The judgment is not a feature that can be used to distinguish the species.
- 2. In the same operation, the difference in petal `length & width between species` is more obvious among groups. For example, the "average length" of petals between species is nearly 3 times different, and the upper and lower bounds of each other's length do not overlap. In this group of data, it is a judgment feature with a fairly high accuracy rate.
+>Here we define a good car as a car with a rating of `vgood or good`
+>a bad car : `unacc or acc`
+ 1. For good cars, they must come with safety `"med" and above`. `Safety` is a pretty accurate feature we can use to predict whether it's a good car or not. 
+ On the other hand, "selling_price" and "maintenance" are both important feature for judment. Most of the goods are charaterized with **low** `selling_price & maintenance_cost`.
+ 2. For bad cars, most of their selling_price & maintenance are `high and above`. Compared to good ones, some of them got **low safety** ratings.
+ 3. In general, we found that to be qualified as a **Good Car**, safety is the most important feature.And they should avoid `extermely high price and maintenance cost`.
 
