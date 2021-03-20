@@ -1,6 +1,6 @@
 # Iris Data Analysis
 
-![The Flower](file:///Users/jerrysmac/Desktop/Screen%20Shot%202021-03-17%20at%205.35.05%20PM.png)
+![The Flower](https://imgur.com/MkP6Rtt)
 
 > 4 features & 3 categories in total
 ## `Features`：
