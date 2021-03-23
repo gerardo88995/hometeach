@@ -1,5 +1,6 @@
 # *Car Data Analysis*
 > **6** features & **4** categories in total
+
 ## `Features`：
 * Selling Price  
 * Maintenance Cost  
@@ -16,6 +17,9 @@
 ## `Insights` :
 >Here we define a good car as a car with a rating of `vgood or good`
 >a bad car : `unacc or acc`
+
+!['safety'](/image/gcar_safety.png)
+
  1. For good cars, they must come with safety `"med" and above`. `Safety` is a pretty accurate feature we can use to predict whether it's a good car or not. 
  On the other hand, "selling_price" and "maintenance" are both important feature for judment. Most of the goods are charaterized with **low** `selling_price & maintenance_cost`.
  2. For bad cars, most of their selling_price & maintenance are `high and above`. Compared to good ones, some of them got **low safety** ratings.
