@@ -29,7 +29,8 @@ To see which features are prerequisite for people being paid more than 50k.
 
 
 ![公司自雇者](./image/自雇者.png)
-1. For people who are self-employed, **1/2** of them can earn more than *50k*. On the other hand, only **1/3 - 1/2** of staff in other workclass such local/state governments are high-earners.
+
+1.For people who are self-employed, **1/2** of them can earn more than *50k*. On the other hand, only **1/3 - 1/2** of staff in other workclass such local/state governments are high-earners.
 
 ![公司自雇者](./image/受教育時間.png)
 2. High-Earners receieved **20%** more than low-paid people on *education*.
