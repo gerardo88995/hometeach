@@ -15,13 +15,28 @@
 * Vgood
 
 ## `Insights` :
->Here we define a good car as a car with a rating of `vgood or good`
+>Here we define：
+ a good car as a car with a rating of `vgood or good`
 >a bad car : `unacc or acc`
 
-!['safety'](/image/gcar_safety.png)
+!['vgood_safety'](./image/vgood_safety.png)
+Each of the cars with 'vgood' rating havs high safety. Safety is a powerful feature to classify vgood cars.
 
- 1. For good cars, they must come with safety `"med" and above`. `Safety` is a pretty accurate feature we can use to predict whether it's a good car or not. 
- On the other hand, "selling_price" and "maintenance" are both important feature for judment. Most of the goods are charaterized with **low** `selling_price & maintenance_cost`.
- 2. For bad cars, most of their selling_price & maintenance are `high and above`. Compared to good ones, some of them got **low safety** ratings.
- 3. In general, we found that to be qualified as a **Good Car**, safety is the most important feature.And they should avoid `extermely high price and maintenance cost`.
+!['safety'](./image/distribution.png)
+Here we can see the distribution across the 4 ratins. Around **70%** of the cars are classified as **unacc**, the worst class of the all.
+
+!['doors'](./image/doors.png)
+Clearly, **number_door** is *not* a reliable feature as each of the 4 ratings have doors from **2 - 5more**.
+
+ Most of the goods are charaterized with **low** `selling_price & maintenance_cost`.
+
+
+>!['unacc_selling_price'](./image/unacc_selling_price.png)
+More than hald of 'unacc' cars come with selling price **med or high**. 
+!['vgood_car_selling_price'](./image/vgood_car_selling_price.png)
+Let's take a lookt at vgood cars' selling_price. All of the are sold at **low or med** price.
+-->**Selling_Price** is another useful feature to differentiate among ratings.
+-->**Maintenance** is applicable as well.
+
+
 
