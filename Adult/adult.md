@@ -29,14 +29,18 @@ To see which features are prerequisite for people being paid more than 50k.
 
 
 ![公司自雇者](./image/自雇者.png)
+(self.employ)
 
 1.For people who are self-employed, **1/2** of them can earn more than *50k*. On the other hand, only **1/3 - 1/2** of staff in other workclass such local/state governments are high-earners. **Those who are self-employed tend to earn more than others.**
 
-![公司自雇者](./image/受教育時間.png)
+![受教時間](./image/受教育時間.png)
+(education_time)
 2. High-Earners receieved **20%** more than low-paid people on *education*.
 
 ![男性高薪](./image/男性高薪.png)
+(male.sql)
 ![女性高薪](./image/女性高薪.png)
+(female.sql)
 ![gender_gap](./image/gender_gap.png)
 3. a) From the above 2 talbes, it's obvious ratio of male earning salary 50k above is 3 times that of female. 
    b) The phenomenon of pay-inequality between male & female has been existed for decades.
@@ -45,6 +49,7 @@ To see which features are prerequisite for people being paid more than 50k.
 
 
 ![年紀](./image/年紀.png)
+(age.sql)
 ![世代](./image/generation_gap.png)
 **High-Earners** seems to be around 8 years older than **Low-Earners**. It could be because of older people accumulated more working experience or expertise, they earn more. 
 However, from the second chart, we found that people in their 30s earned less than those during 1979-1994. Baby-boomers seemed to enjoy more economic growth.
