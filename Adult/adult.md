@@ -37,14 +37,19 @@ To see which features are prerequisite for people being paid more than 50k.
 
 ![男性高薪](./image/男性高薪.png)
 ![女性高薪](./image/女性高薪.png)
-3. From the above 2 talbes, it's obvious ratio of male earning salary 50k above is 3 times that of female. The pay difference between gender results from complex factors and this requires more data to further elaborate.
+![gender_gap](./image/gender_gap.png)
+3. a) From the above 2 talbes, it's obvious ratio of male earning salary 50k above is 3 times that of female. 
+   b) The phenomenon of pay-inequality between male & female has been existed for decades.
+   In 1996, male earn **33%** more than their female counterpart. This could resulted from **gender descrimination** in workplaces and female's **lack of education and skill traning** for certain specialized jobs.
+
 
 
 ![年紀](./image/年紀.png)
-**High-Earners** seems to be around 8 years older than **Low-Earners**. It could because of older people accumulated more working experience or expertise, they earn more. But this needs more information to prove!
+![世代](./image/generation_gap.png)
+**High-Earners** seems to be around 8 years older than **Low-Earners**. It could be because of older people accumulated more working experience or expertise, they earn more. 
+However, from the second chart, we found that people in their 30s earned less than those during 1979-1994. Baby-boomers seemed to enjoy more economic growth.
 
-![education](./image/education.png)
-Pretty obvious, **Education** plays an important role in how much income one can have. For people who didn't go to senior hihg, there is little chance for them to be become a High-Earner in the future. 但每個學歷的基數原本就不一樣，以bachelors學位的人來說，雖然佔高薪族群中的最大來源，但有沒有可能是因為學士的母體相對大，因此能夠躋身高薪的量也相對多？
+
 
 >![doctorate](./image/doctorate.png)
 ![hs_grad](./image/hs_grad.png)
