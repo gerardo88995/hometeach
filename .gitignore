@@ -1,3 +1,6 @@
 input_file/*.csv
-*.sql
+*.csv
+*.DS_Store 
+
 *.txt
+*.db
