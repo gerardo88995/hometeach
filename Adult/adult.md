@@ -22,6 +22,13 @@
 ## `Purpose`:
 To see which features are prerequisite for people being paid more than 50k.
 
+
+##欄位分析:
+為什麼選ab
+不選c
+-不夠均勻
+
+
 ## `Insights`
 > ##### Definition
 > 50k and above : **High-Earners**
