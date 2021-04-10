@@ -38,6 +38,8 @@ By group the data by year form 2010-14, We still don't see too much improvement 
 ![20210409](./image/20210409.png) 
 7 years from then, the air pollution issue is still challengin in Beijing.
 
+## Conclusions:
+
 
 
 
