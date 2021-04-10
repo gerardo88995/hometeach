@@ -37,9 +37,8 @@ Other factors like `capital-gain, relationship or native contry` seems to be ind
 >**`1.Age`**
 ![年紀](./image/年紀.png)
 (age.sql)
-![年齡分佈](./image/年齡分佈.png)
-(age_range.sql)
-![世代](./image/generation_gap.png)
+![世代高薪](./image/世代高薪.png)
+(generation_highsalary.sql
 **High-Earners** seems to be around 8 years older than **Low-Earners**. It could be because of older people accumulated more working experience or expertise, they earn more. 
 However, from the second chart, we found that people in their 30s earned less than those during 1979-1994. Baby-boomers seemed to enjoy more economic growth.
 
@@ -108,7 +107,12 @@ Here are a few reasons for tht phenomena:
 ![relationship高薪比例](./image/relationship高薪比例.png)(relationship_50k.sql)
 
 >**`10. Hours Per Week`**
-![周工時分佈](./image/周工時分佈.png)
+![周工時高薪](./image/周工時高薪.png)
+From the table, people worked `51 - 60 `hrs per week are the **most likely** to earn more than 50k. It seems like the longer one worked, the more he/she could earn 1966.
+However, those who worked `more than 60hrs/week`, their *efficiency* in making money was descending.
+We argue that this is because people who had to work longer than 60hrs are mostly `low-skilled labor`. Thus, even though they spent much time on work each week, it's still difficult for the to be high-earners.
+![週薪佐證](./image/週薪佐證.png)
+
 
 >**`11. Native Country`**
 ![母國分佈](./image/Nativecountry分佈.png)

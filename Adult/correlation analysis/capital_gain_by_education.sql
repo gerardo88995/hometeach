@@ -1,6 +1,6 @@
 select 
-           education,
-		   avg(capitalgain) as avg_capital_gain
+    education,
+	avg(capitalgain) as avg_capital_gain
 		   
 from adult
 where capitalgain> 0

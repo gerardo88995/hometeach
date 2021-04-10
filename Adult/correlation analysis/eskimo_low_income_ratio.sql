@@ -10,4 +10,5 @@ select
 	round( count(race) / cast(ttl as double), 3) as ratio,
 	ttl
 from adult, eskimo
-where race = 'Asian-Pac-Islander' and salary  = '<=50K';
+where race = 'Asian-Pac-Islander' and salary  = '<=50K
+;
