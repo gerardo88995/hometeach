@@ -38,5 +38,9 @@ Let's take a lookt at vgood cars' selling_price. All of the are sold at **low or
 -->**Selling_Price** is another useful feature to differentiate among ratings.
 -->**Maintenance** is applicable as well.
 
+## `Conclusions:`
+1. Obviously, `doors & persons` are not reliable indicators to decide a car's rating as it's just about the design.
+2. `Selling_price, maintenance_cost & safety` are the three most important feature for a car to attain higher better ratins. The `lower the price & cost` of maintenance, the more likely it is to be a **Good Car**. In indition, it's necessary to have a `high level of safety` to be a good car.
+
 
 
