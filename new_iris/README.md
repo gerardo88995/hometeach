@@ -24,3 +24,6 @@
 
  2. In the same operation, the difference in petal `length & width between species` is more obvious among groups. For example, the "average length" of petals between species is nearly **3** times different, and the upper and lower bounds of each other's length do not overlap. In this group of data, it is a judgment feature with a fairly high accuracy rate.
 
+## `Conclusions` :
+In `IRIS dataset`, *length & width of petal* are the two that can be use to classfiy different IRIS species.
+
