@@ -122,7 +122,9 @@ We see higher ratio of high-earners for immigrants from Europe(France, Germany &
 ![1966gdp](./image/1966gdp.png)
 On the other hand, those from Vietnam, Puerto-Rico or Honduras can be seen as `"escaped"` to US to survive as their home coutry suffered from `civil war or dictactoship`.
 
-
+## `Conclusion:`
+The causes behind becoming a "high-earners"
+varies a lot. As this is social-science a phenomenon, factors such as `education level, age, workclass, race and others` can be a vital role in deciding one's income. Also, luck is for sure one of the causes when it comes to feature like capital_gain & loss.
 
 
 
