@@ -13,18 +13,21 @@ with preprocess as (
 			when length(hour) = 1 then '0' || hour
 			else hour
 		end hour,
-		"pm2.5"
+		風速
 	from air 
 ),
 
 clean_data as(
 	select   
-    	"pm2.5",
+    	風速,
 		year || "-" || month || "-" || day || " " || hour || ":00:00" as dt
 	from preprocess
 )
+
 select 
-	* 
+	datetime(dt, "start of month") as M,
+	avg(風速) as "平均_風速"
 from clean_data
-where dt BETWEEN '2010-01-01' and datetime(date('2010-03-01'), '-1 month')
+group by datetime(dt, "start of month")
+order by 平均_風速
 ;
