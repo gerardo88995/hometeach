@@ -26,3 +26,4 @@ from summ
 left join son on summ.occupation = son.occupation
 order by '>50k_ratio' desc
 ;
+

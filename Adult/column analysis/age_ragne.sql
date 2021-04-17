@@ -14,3 +14,4 @@ from adult
 where age_range is not NULL
 group by age_range
 ;
+

@@ -6,3 +6,4 @@ select
 from adult
 where net > 0 and salary = '<=50K'
 ;
+

@@ -25,3 +25,4 @@ select
 from summ
 left join son on summ.education = son.education
 ;
+

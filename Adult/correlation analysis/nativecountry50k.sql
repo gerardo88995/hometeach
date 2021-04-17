@@ -27,3 +27,4 @@ on mom.nativecountry = son.nativecountry
 where num_50k is not NULL
 order by '>50k_ratio' desc
 ;
+

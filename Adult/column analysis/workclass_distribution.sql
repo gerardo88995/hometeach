@@ -75,3 +75,4 @@ select
 from adult, amount
 where workclass = 'Never-worked'
 ;
+

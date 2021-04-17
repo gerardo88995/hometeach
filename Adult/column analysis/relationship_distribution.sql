@@ -5,3 +5,4 @@ from adult
 where relationship is not null
 group by relationship
 ;
+

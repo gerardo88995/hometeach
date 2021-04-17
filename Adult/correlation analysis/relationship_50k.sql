@@ -27,3 +27,4 @@ left join son on summ.relationship = son.relationship
 order by '>50k_ratio' desc
 ;
 
+

@@ -6,3 +6,4 @@ where nativecountry is not null and nativecountry is not '?' and salary is '>50K
 group by nativecountry
 order by num_50k DESC
 ;
+
