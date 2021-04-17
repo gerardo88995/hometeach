@@ -22,3 +22,4 @@ select
 	end as result
 from dewpoint
 join dew on dewpoint.ID = dew.ID
+;

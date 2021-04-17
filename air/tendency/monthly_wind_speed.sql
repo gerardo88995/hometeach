@@ -31,3 +31,4 @@ from clean_data
 group by datetime(dt, "start of month")
 order by 平均_風速
 ;
+

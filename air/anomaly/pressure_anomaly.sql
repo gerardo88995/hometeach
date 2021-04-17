@@ -22,3 +22,4 @@ select
 	end as result
 from feature_statistic
 join feature on feature_statistic.ID = feature.ID
+;
