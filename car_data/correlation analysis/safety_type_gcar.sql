@@ -3,3 +3,4 @@ select
 from car
 where ratings == 'vgood' or ratings =='good'
 ;
+
