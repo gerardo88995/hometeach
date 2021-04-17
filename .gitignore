@@ -1,13 +1,13 @@
-input_file/*.csv
 *.csv
 .DS_Store
-*.docx
+*.DS_Store
 *.txt
 *.db
-.gitignore
-**/.DS_Store
+*.docx
 
 
 
 
-.DS_Store
+
+
+
