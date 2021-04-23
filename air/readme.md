@@ -53,11 +53,14 @@ For the 3 features, we used *3-sigma* as the benchmark to detect whether they ar
 ![boundary](./image/boundary.png)
 (speed_boundary.sql)
 The range of wind speed varies a lot. The maximum can be `1000` times the minumum speed.
-![speed&pm25](./image/speed&pm25.png)
-From the table, we can found that for the feature `WIND SPEED`, anomaly happened more frequently than others. The most abnormal phenomena were discovered during the period from `November to January (spring time)`. The period collapsed with the most severe time of sand strom in Beijing.
-However, this is not coincidence as WIND SPEED is ond of the **`causes of the storm`**. Some papers have already shown their relationship.
+![yearly_month_speed_pm25](./image/yearly_month_speed_pm25.png)
+(yr_speed_pm25.sql)
+We found that `all of the outlier` in wind_speed were all from `year 2010`. It resulted from certain abnormal climate in that year.
 
-**--> Here! [Correlation Between Wind_speed & PM2.5](https://link.springer.com/content/pdf/10.1007/s13753-011-0008-5.pdf)**
+## `Variable correlation analysis`
+![variable](./image/variable.png)
+(variable.sql)
+
 
 
 
