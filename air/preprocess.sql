@@ -13,13 +13,13 @@ with preprocess as (
 			when length(hour) = 1 then '0' || hour
 			else hour
 		end hour,
-		"pm2.5"
+		"pm25"
 	from air 
 ),
 
 clean_data as(
 	select   
-    	"pm2.5",
+    	"pm25",
 		year || "-" || month || "-" || day || " " || hour || ":00:00" as dt
 	from preprocess
 )

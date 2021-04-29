@@ -41,25 +41,129 @@ By group the data by year form 2010-14, We still don't see too much improvement 
 ## `Conclusions:`
 According to the analysis above, every year in **`SPRING time (Oct. - Mar.)`**, the concentration of pm2.5 will rise with the `seasonal wind from Gobi, Mongolia` bringing lot of dust.
  
-
-## `Anomaly Detection:`
+# `Anomaly Detection:`
 ![stdev](./image/stdev.png) 
 According to NASA's definition, climate events whose value exceed 3-time sigma (called 3-sigma event) can be seen as    **`climate anomaly`**. This kind of event is extremely rare in the past.
 ![definition](./image/definition.png)
-> **`1. Dew Point, Air Pressure & Temperature`**
-For the 3 features, we used *3-sigma* as the benchmark to detect whether they are anomaly or not. However, there was no any anomaly for these three climate indicators.
 
-> **`2. Wind Speed`**
-![boundary](./image/boundary.png)
-(speed_boundary.sql)
-The range of wind speed varies a lot. The maximum can be `1000` times the minumum speed.
-![yearly_month_speed_pm25](./image/yearly_month_speed_pm25.png)
-(yr_speed_pm25.sql)
-We found that `all of the outlier` in wind_speed were all from `year 2010`. It resulted from certain abnormal climate in that year.
+## **`Anomaly Analysis of Variable Relevance`**
 
-## `Variable correlation analysis`
-![variable](./image/variable.png)
-(variable.sql)
+![stat](./image/stat.png)
+(stat.sql)
+
+-> The table shows us the `boundary` and `average number` of the **6** variables.
+
+## DEWP VS others:
+> **`DEWP vs TEMP`**
+![dew_temp](./image/dew_temp.png)
+(dewp_temp.sql)
+![dewp_temp_py](./image/dewp_temp_py.png)
+
+> **`DEWP vs PRESSURE`**
+![dew_pressure](./image/dewp_pressure.png)
+(dewp_pressure.sql)
+![dew_pressure](./image/dewp_pressure_py.png)
+
+> **`DEWP vs IWS`**
+![dewp_iws](./image/dewp_iws.png)
+(dewp_iws.sql)
+![dewp_iws_py](./image/dewp_iws_py.png)
+
+
+> **`DEWP vs IS`**
+![dewp_is](./image/dewp_is.png)
+(dewp_is.sql)
+![dewp_is_py](./image/dewp_is_py.png)
+
+>**`DEWP vs IR`**
+![dewp_ir](./image/dewp_ir.png)
+(dewp_ir.sql)
+![dewp_ir_py](./image/dewp_ir_py.png)
+
+## TEMP VS others:
+> **`TEMP vs PRESSURE`**
+![temp_pressure_py](./image/temp_pressure_py.png)
+
+> **`TEMP vs IWS`**
+![temp_iws](./image/temp_iws.png)
+(temp_iws.sql)
+![temp_iws_py](./image/temp_iws_py.png)
+
+> **`TEMP vs IS`**
+![temp_is](./image/temp_is.png)
+(temp_is.sql)
+![temp_is_](./image/temp_is_py.png)
+
+> **`TEMP vs IR`**
+![temp_ir](./image/temp_ir.png)
+(temp_ir.sql)
+![temp_ir_py](./image/temp_ir_py.png)
+## IWS VS others:
+> **`IWS vs IS`**
+![iws_is](./image/iws_is.png)
+(iws_is.sql)
+![iws_is_py](./image/iws_is_py.png)
+
+
+> **`IWS vs IR`**
+![iws_ir](./image/iws_ir.png)
+(iws_ir.sql)
+![iws_ir_py](./image/iws_ir_py.png)
+
+> **`IS vs IR`**
+![is_ir](./image/is_ir.png)
+(is_ir.sql)
+![is_ir_py](./image/is_ir_py.png)
+
+## **Summary 1**
+Above, we try to see if there is any anomalies exist between any 2 different varaible, for example like Dew Point vs Temperature **or** Wind Speed vs Pressure.
+
+However, the relationship between any two variables presents periodic changes. So We can hardly define anomalies here.
+
+## `Single Variable Anomaly Analysis`
+> **`1. Dew Point`**
+
+![dewp](./image/dewp2.png)
+
+> **`2. Temperature`**
+
+![temp](./image/temp.png)
+
+> **`3. Pressure`**
+
+![pressure](./image/pressure.png)
+
+> **`4. Iws`**
+
+![iws](./image/iws.png)
+
+> **`5. IS`**
+
+![is](./image/is.png)
+
+> **`6. IR`**
+
+![ir](./image/ir.png)
+
+## **Summary 2**
+Here, we set **`3x/4x`** standard deviations as benchmarks to detect anomalies in each variable. Then, we visualize them with scatter charts.
+![dataframe](./image/dataframe.png)
+
+ Not all features will be abnormal at the same time.
+ In order to define the so-called **"abnormal time"**, we select the `date` when there are `more than 2 abnormal phenomena` at the same time.
+
+ Then we made a bar chart below to display "**`the number of abonormal days each year`**". 
+ 
+![result](./image/result.png)
+
+
+
+
+
+
+
+
+
 
 
 
