@@ -117,8 +117,7 @@ According to NASA's definition, climate events whose value exceed 3-time sigma (
 
 ## **Summary 1**
 Above, we try to see if there is any anomalies exist between any 2 different varaible, for example like Dew Point vs Temperature **or** Wind Speed vs Pressure.
-
-However, the relationship between any two variables presents periodic changes. So We can hardly define anomalies here.
+![bivariate](./image/bivariate.png)
 
 ## `Single Variable Anomaly Analysis`
 > **`1. Dew Point`**
@@ -149,12 +148,27 @@ However, the relationship between any two variables presents periodic changes. S
 Here, we set **`3x/4x`** standard deviations as benchmarks to detect anomalies in each variable. Then, we visualize them with scatter charts.
 ![dataframe](./image/dataframe.png)
 
- Not all features will be abnormal at the same time.
- In order to define the so-called **"abnormal time"**, we select the `date` when there are `more than 2 abnormal phenomena` at the same time.
-
  Then we made a bar chart below to display "**`the number of abonormal days each year`**". 
- 
-![result](./image/result.png)
+
+![dewp1](./image/dewp1.png)
+![ir1](./image/ir1.png)
+![is1](./image/is1.png)
+![temp1](./image/temp1.png)
+![pres1](./image/pres1.png)
+![iws1](./image/iws1.png)
+
+
+
+![3x_var](./image/3x_var.png)
+(3times_var.sql)
+![n_of_anomalies](./image/n_of_anomalies.png)
+
+
+
+
+
+
+
 
 
 
